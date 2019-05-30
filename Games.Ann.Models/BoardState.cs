@@ -6,6 +6,7 @@ namespace Games.Ann.Models
     public class BoardState
     {
         private Player _player;
+        private Field _field;
 
         public BoardState(Player player)
         {
